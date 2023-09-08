@@ -1,0 +1,45 @@
+Endpoint: auth/users/
+Role: No role required
+Method: POST
+Purpose: Creates a new user with name, email and password
+
+Endpoint: auth/users/me/
+Role: Anyone with a valid user token
+Method: GET
+Purpose: Displays only the current user
+
+Endpoint: auth/token/login/
+Role: Anyone with a valid username and password
+Method: POST
+Purpose: Generates access tokens that can be used in other API calls in this project
+
+
+USER NAMES
+Super user:
+    id : 1
+    username : admin
+    password : lemon@789!
+    authtoken : 450177379634aec07aa422f2ed39a02777aa0470
+
+Manager:
+    id : 2
+    username : Joey
+    password : Slipknot#1
+    authtoken :0b00ba1de5abf81bd17c9f89b653fa563f837062
+
+Delivery Crew:
+    id : 3
+    username : Paul
+    password : Slipknot#2
+    authtoken  : 375628d4a2a1fc18417f3e8c6c8fac5438d8eea2
+
+    id : 4
+    username : James    
+    password : Hetfield19630803
+    authtoken  : fe2d1036d0a8af85f98353ed32ece4402ab02801
+
+Customers:
+    id : 5
+    username : Craig
+    password : 133Samples
+    authtoken :72d10f4ecbe219df7a2a7e7a009c6d1bb06999a6
